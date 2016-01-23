@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 14px;
+    height: auto;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 500px;
+    padding-bottom: 800px;
 }
 
 #logo {

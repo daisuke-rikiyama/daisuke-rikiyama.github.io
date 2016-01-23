@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daisuke Rikiyama | Home</title>
+    <!-- 課題修正箇所、meta description追加 -->
+    <meta name="description" content="Ruby on Railsを使ったWebアプリ開発を目指して学習中。
+      プロフィールや開発したアプリを掲載しています。メッセージボード,Twitterクローン,モノリスト,
+      オリジナルアプリ掲載予定。" />
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- index.css読み込み -->
@@ -16,7 +20,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-menu">
@@ -28,12 +32,20 @@
             <a class="navbar-brand" href="https://daisuke-rikiyama.github.io">Home</a>
           </div>  
           <div class="collapse navbar-collapse" id="site-menu">
-            <ul class="nav navbar-nav">
+            <ul class="nav nav-pills navbar-nav navbar-right">
               <li><a href="#">Apli1</a></li>
               <li><a href="#">Apli2</a></li>
               <li><a href="#">Apli3</a></li>
               <li><a href="#">Apli4</a></li>
-              <li><a href="https://github.com/daisuke-rikiyama">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" area-expanded="false">
+                  Link
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://github.com/daisuke-rikiyama">GitHub</a></li>
+                </ul>
+              </li>
             </ul>
           </div> 
         </div>
@@ -47,7 +59,7 @@
       <section>
         <h2>Profile</h2>
         <p>埼玉県出身。Webアプリ開発の勉強中。</p>
-        <p>海外サイトを閲覧している時に自動翻訳のせいでさらに混乱する。</p>
+        <p>海外サイトを閲覧している時に自動翻訳で更に混乱する。</p>
         <p>現在は辞書が手放せない状態になる。</p>
         <p>趣味:釣り。</p>
         <p>生き帰りが疲れるので、近所の釣り堀に通うようになった。</p>
